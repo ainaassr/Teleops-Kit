@@ -12,11 +12,13 @@ A TeleOps Kit (Teleoperation Kit) is a set of tools, software, or hardware desig
 🌐 Cross-Platform – Web-based front-end and ROS-compatible back-end.
 
 # 🛠️ Built With
-Python / Flask / FastAPI – For backend logic
-React / Vue – For web UI
-WebRTC / MJPEG / RTSP – For live video streaming
-MQTT / ROS / Socket.IO – For real-time data transfer
-Docker – For containerized deployment
+- Python / Flask / FastAPI – For backend logic
+  
+- React / Vue – For web UI
+  
+- WebRTC / MJPEG / RTSP – For live video streaming
+- MQTT / ROS / Socket.IO – For real-time data transfer
+- Docker – For containerized deployment
 
 # GitHub Repository Structure for a TeleOps Kit
 ![image](https://github.com/user-attachments/assets/32e77640-1d90-4a6a-9082-01eb06ee7ffd)
