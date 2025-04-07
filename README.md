@@ -6,46 +6,35 @@ A TeleOps Kit (Teleoperation Kit) is a set of tools, software, or hardware desig
 # GitHub Repository Structure for a TeleOps Kit
 teleops-kit/
 │
-├── README.md                  
-# Project overview, setup, usage
-├── LICENSE                    
-# License file
-├── .gitignore                 
-# Ignore files (e.g., logs, builds, etc.)
-├── requirements.txt           
-# Python dependencies (if applicable)
-├── package.json               
-# Node dependencies (if using JS front-end)
-├── docker-compose.yml         
-# For containerized deployment (optional)
-├── Makefile                   
-# Common commands/scripts (optional)
+├── README.md                  # Project overview, setup, usage
+├── LICENSE                    # License file
+├── .gitignore                 # Ignore files (e.g., logs, builds, etc.)
+├── requirements.txt           # Python dependencies (if applicable)
+├── package.json               # Node dependencies (if using JS front-end)
+├── docker-compose.yml         # For containerized deployment (optional)
+├── Makefile                   # Common commands/scripts (optional)
 │
-├── docs/                      
-# Documentation files
+├── docs/                      # Documentation files
 │   └── architecture.md
 │   └── setup_guide.md
 │
-├── config/                    
-# Config files (YAML, JSON, etc.)
+├── config/                    # Config files (YAML, JSON, etc.)
 │   └── robot_config.yaml
 │
-├── scripts/                   
-# Utility scripts (setup, build, run, etc.)
+├── scripts/                   # Utility scripts (setup, build, run, etc.)
 │   └── setup.sh
 │   └── deploy.sh
 │
-├── backend/                   
-# Server-side logic
-│   ├── app/│   │   ├── init.py
+├── backend/                   # Server-side logic
+│   ├── app/                   
+│   │   ├── __init__.py
 │   │   ├── api/
 │   │   ├── controllers/
 │   │   ├── models/
 │   │   └── services/
 │   └── tests/
 │
-├── frontend/                  
-# Client-side UI
+├── frontend/                  # Client-side UI
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -53,15 +42,13 @@ teleops-kit/
 │   │   └── assets/
 │   └── tests/
 │
-├── teleops_core/             
-# Core libraries for robot communication
+├── teleops_core/             # Core libraries for robot communication
 │   ├── protocols/
 │   ├── telemetry/
 │   ├── video_streaming/
 │   └── control_interface/
 │
-└── simulations/              
-# Simulation environment (Gazebo, Unity, etc.)
-├── worlds/
-├── models/
-└── launch/
+└── simulations/              # Simulation environment (Gazebo, Unity, etc.)
+    ├── worlds/
+    ├── models/
+    └── launch/
