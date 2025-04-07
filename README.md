@@ -6,10 +6,10 @@ A TeleOps Kit (Teleoperation Kit) is a set of tools, software, or hardware desig
 # 🚀 Features
 * 🔧 Modular Architecture – Easily extend or customize components (UI, control protocols, telemetry).
 * 📡 Real-Time Control – Low-latency communication between operator and robot.
-🎥 Video Streaming – Live video feed from remote cameras using WebRTC or RTSP.
-📊 Telemetry Dashboard – Monitor sensor data in real-time.
-🔐 Secure Communication – Optional support for encryption and authentication.
-🌐 Cross-Platform – Web-based front-end and ROS-compatible back-end.
+* 🎥 Video Streaming – Live video feed from remote cameras using WebRTC or RTSP.
+* 📊 Telemetry Dashboard – Monitor sensor data in real-time.
+* 🔐 Secure Communication – Optional support for encryption and authentication.
+* 🌐 Cross-Platform – Web-based front-end and ROS-compatible back-end.
 
 # 🛠️ Built With
 - Python / Flask / FastAPI – For backend logic  
