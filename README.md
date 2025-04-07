@@ -21,10 +21,14 @@ Docker – For containerized deployment
 # GitHub Repository Structure for a TeleOps Kit
 ![image](https://github.com/user-attachments/assets/32e77640-1d90-4a6a-9082-01eb06ee7ffd)
 
-#🧪 Use Cases
+# 🧪 Use Cases
 - Remote rover control in harsh environments
 - Telepresence robots
 - Industrial machine monitoring
 - Educational robotics projects
 
+# 📚 Documentation
+Full setup and developer guide available in the /docs folder.
 
+# 📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
