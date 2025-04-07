@@ -3,7 +3,5 @@ A TeleOps Kit (Teleoperation Kit) is a set of tools, software, or hardware desig
 
 ![image](https://github.com/user-attachments/assets/b8d84fae-be94-431e-a315-a0a29905fe2f)
 
-)
-
 # GitHub Repository Structure for a TeleOps Kit
 
